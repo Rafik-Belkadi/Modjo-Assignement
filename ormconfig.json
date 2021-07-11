@@ -1,0 +1,8 @@
+{
+  "type": "sqlite",
+  "database": "test.db",
+  "entities": ["dist/**/*.entity{.ts,.js}"],
+  "synchronize": true,
+  "cli": { "migrationsDir": "src/migrations" },
+  "migrations": ["migrations/*{.ts,.js}"]
+}
